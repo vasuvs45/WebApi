@@ -16,7 +16,7 @@ namespace WebApis
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Student", action = "Get", id = UrlParameter.Optional }
+                defaults: new { controller = "Student", action = "Getting", id = 1 }
             );
         }
     }
